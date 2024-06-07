@@ -1,8 +1,8 @@
 import {createRoot} from "react-dom/client";
 import {App} from "./components/App";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import {About} from "./compnents/about";
-import {Shop} from "./compnents/shop";
+import {About} from "@/compnents/about";
+import {Shop} from "@/compnents/shop";
 import {Suspense} from "react";
 
 const root = document.getElementById('root');
