@@ -10,9 +10,8 @@ export const App = () => {
   const [count, setCount] = useState(0);
   const increment = () => setCount(prev => prev + 1);
   return (
-    <div>
-
-      <div>Platform = {__PLATFORM__}hjjhj</div>
+    <div data-testid={'App'}>
+      <h1 data-testid={'Platform'}>Platform = {__PLATFORM__}</h1>
 
       <div>
         <img width={100} height={100} src={avatarPng}/>
