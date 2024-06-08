@@ -10,7 +10,7 @@ export const App = () => {
   const [count, setCount] = useState(0);
   const increment = () => setCount(prev => prev + 1);
   return (
-    <div data-testid={'App'}>
+    <div data-testid={'App.DataTestID'}>
       <h1 data-testid={'Platform'}>Platform = {__PLATFORM__}</h1>
 
       <div>
